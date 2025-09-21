@@ -19,6 +19,29 @@
 
             <Entry x:Name="Nickname" />
 
+            <HorizontalStackLayout>
+                <RadioButton
+                    x:Name="RadioMale"
+                    Content="Męskie"
+                    GroupName="Plec"
+                    Value="0" />
+                <RadioButton
+                    x:Name="RadioFemale"
+                    Content="Żeńskie"
+                    GroupName="Plec"
+                    Value="1" />
+                <RadioButton
+                    x:Name="RadioNeutral"
+                    Content="Nijakie"
+                    GroupName="Plec"
+                    Value="2" />
+                <RadioButton
+                    x:Name="RadioNone"
+                    Content="Losowe"
+                    GroupName="Plec"
+                    Value="3" />
+            </HorizontalStackLayout>
+
             <Button
                 x:Name="CounterBtn"
                 Clicked="OnCounterClicked"
